@@ -8,16 +8,11 @@ Day2::Day2() {
     for(std::string str; getline(file, str);) {
         fileLines.push_back(str);
     }
-    // while (file >> str) {
-    //     std::cout << str << std::endl;
-    //     fileLines.push_back(str);
-    // }
 
     file.close();
 }
 
 Day2::~Day2() {
-
 }
 
 int Day2::run() {
