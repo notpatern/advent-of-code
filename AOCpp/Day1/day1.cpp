@@ -1,7 +1,7 @@
 #include "day1.h"
 
 Day1::Day1()
-    : inputFilePath("/home/caca/AOCpp/Day1/input.txt")
+    : inputFilePath("/mnt/d/Github/advent-of-code/AOCpp/Day1/input.txt")
 {
     std::ifstream file(inputFilePath);
     std::string str;
