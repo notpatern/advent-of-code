@@ -29,3 +29,9 @@ public:
 
     int run();
 };
+
+struct Coords {
+public:
+    int x;
+    int y;
+};
